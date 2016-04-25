@@ -14,13 +14,13 @@
                 views: {
                     '@': {
                         templateUrl: 'app/modules/base/views/base.html',
+                        controller: 'BaseCtrl',
                     },
                     'header@base': {
                         templateUrl: 'app/modules/base/views/header.html',
                     },
                     'sidebar@base': {
-                        templateUrl: 'app/modules/base/views/sidebar.html',
-                        controller: 'BaseCtrl'
+                        templateUrl: 'app/modules/base/views/sidebar.html',                        
                     },
                     'footer@base': {
                         templateUrl: 'app/modules/base/views/footer.html',

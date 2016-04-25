@@ -1,6 +1,6 @@
-<header ui-view="header"></header>
-<section>
-    <aside ui-view="sidebar" class="nav"></aside>
-    <aside ui-view="content" class="content">Content</aside>
+<aside ui-view="sidebar" class="leftPanel" ng-class="{true: 'panel-in', false : 'panel-out'}[toggleLeftPanel]"></aside>
+<section class="main">
+	<header ui-view="header"></header>
+    <section ui-view="content" class="content" ng-class="{true: 'mainSection-in', false : 'mainSection-out'}[toggleMainSection]">Content</section>
+	<footer ui-view="footer"></footer>
 </section>
-<footer ui-view="footer"></footer>

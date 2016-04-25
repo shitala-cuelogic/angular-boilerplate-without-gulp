@@ -1,1 +1,1 @@
-angular.module('dashboard', ['dashboard.directive']);
+angular.module('dashboard', ['common.directive']);

@@ -11,12 +11,12 @@
         $scope.userList = function() {
             //calling API and get user list
             $scope.getUsers = baseService.getUserList().userDetails;
-            $scope.subTabMenus = [{
-                'tabMenu': 'All',
-                'action': 'dashboard'
+            $scope.topTabMenus = [{
+                'topTabMenuName': 'All',
+                'url': '/dashboard'
             }, {
-                'tabMenu': 'Proposals',
-                'action': 'proposals'
+                'topTabMenuName': 'Proposals',
+                'url': 'proposals'
             }]
         }
     }

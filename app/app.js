@@ -13,7 +13,8 @@
             'login',
             'base',
             'dashboard',
-            'user'
+            'user',
+            'dataMapping'
         ])
         .config(['$urlRouterProvider', '$locationProvider', initializeConfigurationPhase]);
 

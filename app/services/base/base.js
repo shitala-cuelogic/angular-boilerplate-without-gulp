@@ -29,7 +29,7 @@ function baseService($http) {
             }, {
                 "name": "Data Mapping",
                 "class": "data-mapping",
-                "action": "base.dashboard",
+                "action": "base.dataMapping",
             }, {
                 "name": "Clients",
                 "class": "clients",
