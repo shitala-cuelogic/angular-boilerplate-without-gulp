@@ -1,1 +1,1 @@
-# angular-boilerplate-without-gulp
+# angular-boilerplate-without-server
