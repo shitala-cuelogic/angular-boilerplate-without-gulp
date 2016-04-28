@@ -1,5 +1,5 @@
 <ul class="nav padding80">
-    <li ng-repeat="setmenu in getMenus">
+    <li ui-sref-active="active" ng-repeat="setmenu in getMenus">
         <a ui-sref="{{setmenu.action}}">{{setmenu.name}}</a>
     </li>
 </ul>

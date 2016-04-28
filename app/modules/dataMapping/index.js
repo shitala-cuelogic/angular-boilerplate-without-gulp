@@ -1,1 +1,1 @@
-angular.module('dataMapping', ['common.directive']);
+angular.module('dataMapping', ['common.directive', 'dataProvider.service', 'dataProvider.directive']);

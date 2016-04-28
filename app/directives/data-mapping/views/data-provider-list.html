@@ -1,0 +1,20 @@
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+        <table class="table table-striped">
+            <thead>
+                <th>Data Provider</th>
+                <th>Date Received </th>
+                <th></th>                
+            </thead>
+            <tbody>
+                <tr ng-repeat="singleDataProvider in dataProviderList">
+                    <td>{{singleDataProvider.providerName}}</td>
+                    <td>{{singleDataProvider.dateReceived}}</td>
+                    <td>
+                    	Assigned to
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,8 +1,9 @@
-<ul class="nav nav-tabs" role="tablist">
-    <li class="{{leftTabMenu.activeCls}}"  ng-repeat="leftTabMenu in leftTabMenus()">
-        <a href="#{{leftTabMenu.url}}" role="tab" data-toggle="tab">
+<div class="col-xs-2 verticalmenu-align"> 
+<ul class="nav nav-tabs tabs-left" role="tablist">
+    <li ui-sref-active="active" class="active"  ng-repeat="leftTabMenu in leftTabMenuList">
+        <a ui-sref="{{leftTabMenu.state}}" role="tab" data-toggle="tab">
             <span>{{leftTabMenu.leftTabMenuName}}</span>
         </a>
     </li>       
 </ul>
-
+</div>

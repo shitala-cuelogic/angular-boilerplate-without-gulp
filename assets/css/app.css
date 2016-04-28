@@ -373,6 +373,34 @@ footer {
 
 .panel-in {}
 
+
+/*new code*/
+
+.tabs-left {
+    border-right: 1px solid #ddd;
+    border-bottom: none;
+    padding-top: 2px;
+}
+
+.tabs-left>li {
+    margin-right: -1px;
+    float: none;
+    margin-bottom: 2px;
+}
+.tabs-left>li.active>a, .tabs-left>li.active>a:hover, .tabs-left>li.active>a:focus {
+    border-bottom-color: #ddd;
+    border-right-color: transparent;
+}
+
+.no-padding{
+    padding:0px;
+}
+.verticalmenu-align{
+padding: 0px 6px;
+}
+
+/*end new code*/
+
 @media (max-width: 768px) {
     .nav.navbar-nav {
         margin: 2px 0;

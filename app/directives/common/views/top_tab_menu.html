@@ -1,8 +1,10 @@
-<ul class="nav nav-tabs" role="tablist">
-    <li class="{{topTabMenu.activeCls}}"  ng-repeat="topTabMenu in topTabMenus()">
-        <a href="#{{topTabMenu.url}}" role="tab" data-toggle="tab">
-            <span>{{topTabMenu.topTabMenuName}}</span>
-        </a>
-    </li>       
-</ul>
-
+<div class="clearfix">&nbsp;</div>
+<div class="col-xs-10 col-xs-offset-2 no-padding">
+	    <ul class="nav nav-tabs custom-vertical" role="tablist">
+	        <li ui-sref-active="active" class="" ng-repeat="topTabMenu in topTabMenuList">
+	            <a ui-sref="{{topTabMenu.state}}" role="tab" data-toggle="tab">
+	                <span>{{topTabMenu.topTabMenuName}}</span>
+	            </a>
+	        </li>
+	    </ul>
+</div>

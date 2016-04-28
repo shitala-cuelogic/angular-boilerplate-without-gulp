@@ -25,10 +25,13 @@
 
     <!-- Load services before modules -->
     <script src="app/services/base/base.js"></script>
-
+    <script src="app/services/common/common.js"></script>
+    <script src="app/services/data-mapping/data-provider.js"></script>
+    
     <!-- Load directives before modules -->
     <script src="app/directives/common/common.js"></script>
-
+    <script src="app/directives/data-mapping/data-provider.js"></script>
+    
     <!-- Base module -->
     <script src="app/modules/base/index.js"></script>
     <script src="app/modules/base/controllers/base.js"></script>
@@ -51,7 +54,12 @@
 
     <!-- DataMapping module -->
     <script src="app/modules/dataMapping/index.js"></script>
-    <script src="app/modules/dataMapping/controllers/datamapping.js"></script>
+    <script src="app/modules/dataMapping/controllers/data-mapping.js"></script>
+    <script src="app/modules/dataMapping/controllers/clients.js"></script>
+    <script src="app/modules/dataMapping/controllers/data-provider-spend.js"></script>
+    <script src="app/modules/dataMapping/controllers/data-provider-occurrence.js"></script>
+    <script src="app/modules/dataMapping/controllers/data-provider-master-data.js"></script>
+    <script src="app/modules/dataMapping/controllers/data-provider-creative.js"></script>
     <script src="app/modules/dataMapping/route.js"></script>
 
     <!-- Configuration file -->
